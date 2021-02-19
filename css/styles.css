@@ -1,0 +1,286 @@
+body {
+    font-family: 'Karla', sans-serif;
+    margin: 0;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    /* padding: 1rem; */
+}
+
+h1 {
+    font-size: 400%;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 250%;
+    color: #001d5d;
+    margin-top: 0;
+}
+
+h3 {
+    color: #001d5d;
+    font-size: 200%;
+}
+
+h4 {
+    color: #6bc346;
+    text-transform: uppercase;
+}
+
+image {
+    margin: center;
+}
+
+section {
+    height: 35rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+footer {
+    background-color: #001d5d;
+    height: 20rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.banner-img {
+    height: 100%;
+    background-image: url("./../Images/image1.png");
+    background-position: top;
+    transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+    z-index: 0;
+}
+
+.banner-img:hover {
+    background-size: 120%;
+    /* transform: scale(1.1); */
+    /* transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95); */
+    background-position: top;
+    transition: 3s;
+}
+
+.bio {
+    width: 45%;
+    float: right;
+    background-color: white;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.bio h2 {
+    margin-right: 14rem;
+}
+
+.bio p {
+    margin-right: 8rem;
+    line-height: 1.5rem;
+}
+
+.bio .btn {
+    margin-left: 0;
+}
+
+.brent {
+    margin-left: 5rem;
+}
+
+.brent-img {
+    float: left;
+    object-fit: cover;
+    width: 100px;
+    /* margin: 6rem; */
+}
+
+.btn {
+    padding: 12px 50px;
+    margin: 20px;
+    background-color: #d9f0d0;
+    color: #72c64f;
+    border: none;
+    font-weight: 550;
+}
+
+.btn:hover {
+    background-color: #c7e2b2;
+}
+
+.center {
+    text-align: center;
+}
+
+.center-margin {
+    margin-left: 22rem;
+    margin-right: 22rem;
+}
+
+.carousel {
+    margin: 0 auto;
+    height: 400px;
+}
+
+.carousel-button {
+    border: none;
+    background: transparent;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.carousel-button-container {
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.carousel-image {
+    /* margin-top: 4rem; */
+    /* margin-left: 1rem; */
+    display: block;
+    margin: 0 auto;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.carousel-slide {
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    width: 35rem;
+    box-shadow: 0 4px 8px 0 rgba(150, 149, 149, 0.2), 0 6px 20px 0 rgba(163, 163, 163, 0.19);
+    /* this helps keep the divs side by side */
+    display: flex;
+}
+
+.carousel-track {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    height: 70%;
+    position: relative;
+    animation: 20s slider infinite;
+}
+
+
+/* .carousel-track-container {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    height: 70%;
+    position: relative;
+    animation: 20s slider infinite;
+} */
+
+.new-rel-h2 {
+    margin-bottom: 1rem;
+}
+
+.image-container {
+    background-color: #f8f8f8;
+    width: 12rem;
+    display: flex;
+}
+
+.p-container {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+.p-container h3 {
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.p-container h4 {
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.p-container p {
+    width: 20rem;
+    /* this allows the div to fit to the size of the paragraph */
+    display: block;
+    float: right;
+}
+
+.logo {
+    margin-right: 5rem;
+    margin-top: 20px;
+    padding-top: 5rem;
+}
+
+.navbar {
+    background-color: white;
+    height: 80px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 8%;
+    margin-right: 8%;
+    z-index: 99;
+}
+
+.nav-link {
+    color: #0d335d;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.paradox {
+    text-align: left;
+    letter-spacing: 1px;
+    line-height: 25px;
+    width: 45%;
+    color: white;
+    padding-top: 12rem;
+    padding-left: 5rem;
+}
+
+.section-padding {
+    padding-top: 5rem;
+}
+
+.video-link {
+    color: white;
+    text-align: center;
+}
+
+.video-link:hover {
+    color: #ccf2f4;
+}
+
+
+
+#sign-up {
+    background-color: white;
+}
+
+#concerts {
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+#records {
+    background-color: white;
+}
+
+#music {
+    background-color: #f6f6f6;
+}
+
+/* #music h2 {
+    margin-top: 0;
+} */
